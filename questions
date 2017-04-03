@@ -1,0 +1,7 @@
+1) The general trend of the curve is positive. It goes up almost linearly. (Figure_1)
+
+2) The curve is noisy when there is a low percentage of data used for training because the individual cases of each image matters a lot.
+
+3) I tried 25, 50, 75, 100, and 150 trials. The curve seemed to become smoother and smoother as the number of trails increased up to 100 trials. The difference between 100 and 150 trials was insignifigant. Only 100 trials are needed. (Figure_2)
+
+4) I reduced the C value to (C=10**-1) and the accuracy hit 95% at only 30% of data used for training. (Figure_3)
